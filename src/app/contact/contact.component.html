@@ -8,7 +8,7 @@
 	<div class="row">
 		<div class="col-md-6">
 			<div class="formulario">
-				<form id="formulario" (ngSubmit)="onSubmit()">
+				<form ngNativeValidate id="formulario" (ngSubmit)="onSubmit()">
 					<input type="text" name="name" class="input" placeholder="Nombre" [(ngModel)]="obj.name" required="true">
 					<br>
 					<input type="email" name="mail" class="input" placeholder="Correo Electronico" [(ngModel)]="obj.mail" required="true">
