@@ -1,0 +1,14 @@
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p href="" class="logo"><span>></span>dowhile</p>
+			</div>
+			<div class="col-md-6 text-right">
+				<div class="rederSociales">
+					<a *ngFor="let item of redes" target="_blank" title="{{item.name}}" href="{{item.link}}" class="logo rrss"><span class="{{item.icon}}"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

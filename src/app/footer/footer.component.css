@@ -1,0 +1,19 @@
+footer{
+	padding: 40px;
+	background: #0f0f0f;
+}
+
+footer .logo span {
+  color: #1abc9c;
+  margin-right: 3px;
+}
+
+footer .logo{
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	color: #fff;
+}
+
+footer .rrss{
+	margin-left: 20px;
+}

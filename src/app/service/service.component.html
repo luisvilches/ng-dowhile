@@ -1,0 +1,15 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="green">Nuestros servicios</h2>
+			<p class="amamos">AMAMOS LO QUE HACEMOS</p>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-md-4 text-left box" *ngFor="let item of servicios">
+			<p class="titulo"><span class="{{item.icon}}"></span>{{item.titulo}}</p>
+			<p>{{item.body}}</p>
+		</div>
+	</div>
+	<div class="row pd"></div>
+</div>

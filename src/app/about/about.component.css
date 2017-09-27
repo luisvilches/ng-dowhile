@@ -1,0 +1,27 @@
+.green{
+	color: #1abc9c;
+}
+
+h2{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 40px;
+	padding-top: 60px;
+}
+.amamos{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 40px;
+	color: #4E565F;
+
+}
+
+.box{
+	min-height: 100px;
+	padding: 20px;
+	padding-bottom: 80px;
+}
+
+.box p{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 35px;
+	color: #4E565F;
+}

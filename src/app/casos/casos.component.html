@@ -1,0 +1,22 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="green">Casos de exito</h2>
+			<p class="amamos">Algunos de nuestros trabajos</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3" *ngFor="let item of casos">
+			<a href="{{item.link}}" title="{{item.name}}">
+				<img src="{{item.imagen}}" alt="{{item.name}}" class="img-responsive">
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<br>
+		<br>
+		<div class="col-md-12 text-right">
+			<a href="" class="btnVerMas">Ver todos los proyectos -></a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+header {
+	margin-top: 60px;
+	min-height: 600px; 
+	background-image: url(../../imagenes/header4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	padding-top: 260px;
+	font-family: 'Comfortaa', cursive;
+	margin-left: 40px;
+	color: #fff;
+	font-size: 40px;
+}
+
+h1 span {
+	color: #1abc9c;
+}
+
+p{
+	margin-left: 40px;
+}

@@ -1,0 +1,91 @@
+.green{
+	color: #1abc9c;
+}
+.white{
+	color: #f4f4f4;
+}
+
+h2{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 40px;
+	padding-top: 40px;
+}
+
+.amamos{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 40px;
+	color: #4E565F;
+}
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.formulario{
+	padding: 60px;
+}
+
+.formulario .input{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 15px;
+}
+.formulario textarea{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 15px;
+}
+
+.formulario form{
+	margin-left: -20px;
+}
+
+.formulario input[type=submit]{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 20px;
+	background-color: #1abc9c;
+	color: #fff;
+	border: none;
+}
+
+.logo span {
+  color: #1abc9c;
+  margin-right: 3px;
+}
+
+.logo{
+	font-size: 60px;
+	font-family: 'Comfortaa', cursive;
+	color: #fff;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.infoContacto {
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 35px;
+	color: #4E565F;
+}
+
+.infoItem{
+	margin-left: 40px;
+	font-size: 16px;
+	color: #f4f4f4;
+	margin-bottom: 20px;
+}
+
+.infoItem span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#alert h4{
+	color: #fff;
+}
+
+.hidde{
+	display: none;
+}

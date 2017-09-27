@@ -1,0 +1,23 @@
+h2{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 0px;
+	color: #fff
+}
+.amamos{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 0px;
+	color: #f4f4f4;
+}
+
+.btnVerMas{
+	color: #fff;
+	transition: 1s;
+}
+
+.btnVerMas:hover{
+	transition: 1s;
+	background: #25292D;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+}
