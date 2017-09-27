@@ -33,6 +33,10 @@ export class ContactComponent implements OnInit {
       if (data.message === "success") {
         document.getElementById('formulario').classList.add("hidde");
         document.getElementById('alert').classList.remove("hidde");
+      } else {
+        document.getElementById('formulario').classList.add("hidde");
+        document.getElementById('alert').classList.remove("hidde");
+        document.getElementById('alert').innerText = "No se pudo enviar el formulario, intentelo mas tarde, Gracias";
       }
     });
   }

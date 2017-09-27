@@ -27,15 +27,18 @@ export class ServiciosService {
 
   postFormContact(tipo:string,cuerpo:any = {}){
 
-    let headers = new Headers({ 
-      "Content-Type":"application/json",
-      "Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1OWNhZTZiZDA2Zjg1ZTM5N2FhNzAwYjAiLCJpYXQiOjE1MDY0Njk3MjYsImV4cCI6MTUwNzY3OTMyNiwidXNlcm5hbWUiOiJMdWlzIn0.rlFBIIg29DEyPm3bkNLIaRbfUW3WS8w9Y4wA6-tm_2E" 
-    });
+    var formData = new FormData();
+    formData.append("name",cuerpo.name);
+    formData.append("mail",cuerpo.mail);
+    formData.append("telefono",cuerpo.telefono);
+    formData.append("mensaje",cuerpo.mensaje);
+    console.log(cuerpo)
 
-    let options = new RequestOptions({ headers: headers });
-    let body = cuerpo;
+    //let headers = new Headers();
+    //headers.append('content-type','multipart/form-data');
+    //let options = new RequestOptions({ headers: headers });
 
-    return this.http.post(`${url}${tipo}`,body,options)
+    return this.http.post(`${url}${tipo}`,formData)
     .map((res:Response) => res.json())
 
   }
