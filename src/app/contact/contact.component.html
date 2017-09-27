@@ -9,13 +9,13 @@
 		<div class="col-md-6">
 			<div class="formulario">
 				<form id="formulario" (ngSubmit)="onSubmit()">
-					<input type="text" name="name" class="input" placeholder="Nombre" required [(ngModel)]="obj.name">
+					<input type="text" name="name" class="input" placeholder="Nombre" [(ngModel)]="obj.name" required="true">
 					<br>
-					<input type="email" name="mail" class="input" placeholder="Correo Electronico" required [(ngModel)]="obj.mail">
+					<input type="email" name="mail" class="input" placeholder="Correo Electronico" [(ngModel)]="obj.mail" required="true">
 					<br>
-					<input type="phone" name="phone" class="input" placeholder="Teléfono" required [(ngModel)]="obj.telefono">
+					<input type="phone" name="phone" class="input" placeholder="Teléfono" [(ngModel)]="obj.telefono" required="true">
 					<br>
-					<textarea name="msg" id="" cols="30" rows="10" placeholder="Mensaje" required [(ngModel)]="obj.mensaje"></textarea>
+					<textarea name="msg" id="" cols="30" rows="10" placeholder="Mensaje" [(ngModel)]="obj.mensaje" required="true"></textarea>
 					<br>
 					<input type="submit" value="Enviar">
 				</form>
