@@ -17,3 +17,17 @@ footer .logo{
 footer .rrss{
 	margin-left: 20px;
 }
+
+@media (max-width: 768px) {
+	footer .logo{
+		text-align: center;
+	}
+
+	footer .rederSociales{
+		text-align: center !important;
+	}
+
+	footer .rrss{
+		margin: 20px;
+	}
+}

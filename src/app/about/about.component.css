@@ -25,3 +25,14 @@ h2{
 	margin-left: 35px;
 	color: #4E565F;
 }
+
+
+@media (max-width: 768px){
+	h2{
+		margin-left: 20px;
+	}
+
+	.box p{
+		margin-left: 15px;
+	}
+}

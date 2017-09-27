@@ -12,7 +12,6 @@ h2{
 	font-family: 'Comfortaa', cursive;
 	margin-left: 40px;
 	color: #4E565F;
-
 }
 
 .box{
@@ -39,4 +38,17 @@ h2{
 .box .titulo{
 	font-size: 16px;
 	color: #fff;
+}
+
+@media (max-width: 768px) {
+	h2{
+		margin-left: 20px;
+	}
+	.box p{
+		margin-left: 15px;
+	}
+
+	.amamos{
+		margin-left: 20px;
+	}
 }

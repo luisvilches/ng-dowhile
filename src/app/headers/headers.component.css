@@ -24,3 +24,9 @@ h1 span {
 p{
 	margin-left: 40px;
 }
+
+@media (max-width: 768px){
+	h1{
+		padding-top: 220px;
+	}
+}
