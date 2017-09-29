@@ -1,0 +1,18 @@
+.service{
+	background-image: url(../../imagenes/servicesbg.png);
+	min-height: 400px;
+}
+
+.about{
+	background-image: url(../../imagenes/grey.png);
+	min-height: 200px;
+}
+
+.contact{
+	background: #25292D;
+}
+
+.blog{
+	padding: 40px;
+	background-color: #0f9095;
+}
